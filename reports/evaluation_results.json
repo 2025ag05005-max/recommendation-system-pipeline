@@ -1,0 +1,24 @@
+{
+  "Popularity": {
+    "precision_at_5": 0.009207161125319694,
+    "recall_at_5": 0.03640349420400571,
+    "ndcg_at_5": 0.025593778300112557,
+    "coverage": 0.006158899609936358,
+    "diversity": 0.7732768865121806,
+    "rmse": 1.0743287145482574,
+    "mae": 0.8567555004952836,
+    "eligible_users": 391,
+    "evaluated_test_ratings": 889
+  },
+  "ItemBasedCollaborativeFiltering": {
+    "precision_at_5": 0.0,
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 0.0,
+    "coverage": 0.047012933689180865,
+    "diversity": 0.7685957861405432,
+    "rmse": 1.033182613432211,
+    "mae": 0.804645625029475,
+    "eligible_users": 391,
+    "evaluated_test_ratings": 889
+  }
+}

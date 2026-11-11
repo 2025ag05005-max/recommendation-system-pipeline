@@ -1,0 +1,16 @@
+check,failure_count
+users_missing_or_invalid_id,0
+users_missing_source,0
+users_duplicate_id,0
+items_missing_or_invalid_id,0
+items_missing_genres,0
+items_duplicate_id,0
+items_missing_title,0
+interactions_missing_user,0
+interactions_missing_item,0
+interactions_missing_rating,0
+interactions_missing_timestamp,0
+invalid_rating_range,0
+invalid_timestamp,0
+duplicate_interactions,0
+referential_integrity_failures,0
