@@ -124,9 +124,15 @@ Stop the scheduler with Ctrl+C. For production deployment, the one-shot `python 
 - Item-based collaborative filtering can be memory-intensive on much larger catalogs because the item similarity matrix is dense.
 - Diversity uses genre-set Jaccard distance as a transparent proxy for recommendation variety.
 
-## 13. Submission evidence
-Capture genuine screenshots after execution and save them in `reports/screenshots/` using the filenames listed in `reports/screenshots/README.txt`. Then run:
-```bash
-python build_submission_pdf.py --github-url https://github.com/YOUR_USERNAME/YOUR_REPOSITORY
-```
-The script creates `reports/Final_Submission.pdf`, containing the short report and screenshot appendix. Replace the example GitHub URL with your actual public repository URL before generating the final PDF.
+## 13. Submission artifacts
+
+The repository includes the completed project documentation and execution evidence.
+
+- `reports/Final_Submission.pdf` contains the project report, evaluation results, and execution screenshot appendix.
+- `reports/screenshots/` contains screenshots documenting the successful execution of the pipeline stages, model evaluation, MLflow tracking, orchestration, and GitHub repository.
+- `reports/screenshots/README.txt` provides an index of the available execution evidence.
+- `logs/pipeline_run.json` records the overall orchestration status and individual task outcomes.
+
+The final pipeline execution completed successfully, with all eight orchestration stages reporting `SUCCESS`.
+
+The project source code, configuration, requirements, generated reports, and supporting evidence are maintained in this repository.

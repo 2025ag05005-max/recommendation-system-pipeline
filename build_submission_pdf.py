@@ -24,6 +24,11 @@ def build(github_url):
         Paragraph("End-to-End Data Management Pipeline for a Recommendation System", styles["CoverTitle"]),
         Paragraph("Data Management for Machine Learning – Assignment 2", styles["Heading2"]),
         Paragraph(f"<b>GitHub repository:</b> <link href='{github_url}' color='blue'>{github_url}</link>", styles["BodyText"]),
+    Spacer(1, 8),
+    Paragraph("<b>Student Name:</b> Abhinandan M S", styles["BodyText"]),
+    Paragraph("<b>BITS ID:</b> 2025AG05005", styles["BodyText"]),
+    Paragraph("<b>Email:</b> 2025ag05005@wilp.bits-pilani.ac.in", styles["BodyText"]),
+    Spacer(1, 12),
         Spacer(1, 8),
         Paragraph("1. Objective and dataset", styles["Heading2"]),
         Paragraph("The project implements a reproducible recommendation data pipeline using the public MovieLens Latest Small dataset. It ingests user, movie and rating-interaction data; validates data quality; prepares chronological train/test data; creates reusable features; trains two recommenders; evaluates them; and orchestrates the workflow.", styles["BodyText"]),
@@ -66,15 +71,24 @@ def build(github_url):
         Spacer(1,8)
     ]
     required = [
-        ("01_ingestion.png","1. Data ingestion"),
-        ("02_validation.png","2. Data validation"),
-        ("03_preparation.png","3. Data preparation and temporal split"),
-        ("04_transformation.png","4. Data transformation"),
-        ("05_feature_management.png","5. Feature management"),
-        ("06_model_training_evaluation.png","6. Model training and evaluation"),
-        ("07_mlflow_runs.png","7. MLflow experiment tracking"),
-        ("08_orchestration_success.png","8. Successful orchestration run"),
-        ("09_github_repository.png","9. Public GitHub repository")
+        ("01_ingestion.png", "1. Data ingestion"),
+        ("02_validation.png", "2. Data validation"),
+        ("03_preparation.png", "3. Data preparation and temporal split"),
+        ("04_transformation.png", "4. Data transformation"),
+        ("05_feature_management.png", "5. Feature management"),
+        ("06_model_training.png", "6. Model training"),
+        ("07_recommendation_generation.png", "7. Recommendation generation"),
+        ("08_model_evaluation.png", "8. Model evaluation"),
+        ("09_mlflow_verification.png", "9. MLflow experiment verification"),
+        ("10_ranking_diagnostics.png", "10. Ranking diagnostics"),
+        ("11_itemcf_diagnostics.png", "11. Item collaborative filtering diagnostics"),
+        ("12_itemcf_ranking_analysis.png", "12. Item collaborative filtering ranking analysis"),
+        ("13_itemcf_rating_diagnostics.png", "13. Item collaborative filtering rating diagnostics"),
+        ("13_orchestration_pipeline.png", "14. Successful orchestration run"),
+        ("14_evaluation_report_verification.png", "15. Evaluation report verification"),
+        ("14_pipeline_run_log.png", "16. Complete pipeline execution log"),
+        ("15_mlflow_runs.png", "17. MLflow experiment runs and metrics"),
+        ("16_github_repository.png", "18. Public GitHub repository"),
     ]
     missing = []
     for filename, caption in required:
